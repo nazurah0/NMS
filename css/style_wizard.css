@@ -1,0 +1,60 @@
+
+.form-control {
+	border:0px;
+	border-bottom: 1px solid #B4B9BC;
+	border-radius: 0px;
+	
+	}
+
+.col-form-label{
+	color: #5B7C70;
+}
+
+.section-title{
+color:  #545365;
+}
+
+.form-control:focus {
+	
+	outline:0px !important;
+	border-bottom: 1px solid ;
+	border-bottom-color: #44403F;
+
+	-webkit-appearance:none;
+	box-shadow: none !important;
+}
+
+input[type="file"] {
+	
+	border: 1px solid #B4B9BC;
+	
+	
+  }
+
+  input[type="file"]:focus {
+	
+	border: 1px solid #B4B9BC;
+	
+	
+  }
+
+.img-section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+
+}
+  
+  #display-image, #display-image-mother{
+	
+	height:220; width: 250px; 
+	border: 1px solid #B4B9BC;
+	background-position: center;
+	background-size: cover;
+	object-fit: cover;
+	border-radius: 2%;
+  }
+
+  
